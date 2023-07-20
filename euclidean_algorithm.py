@@ -1,8 +1,8 @@
-a=420
-b=55
-while b != 0:
-    c = a%b
-    a = b
-    b = c
+def nwd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
     
-print(a)
+print(nwd(666, 420))
