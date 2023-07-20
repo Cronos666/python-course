@@ -1,1 +1,1 @@
-This are files I made learing python
+This are scripts I made learing python and git.
