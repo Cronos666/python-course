@@ -4,5 +4,5 @@ def fib(n):
     else:
          return fib(n-1) + fib(n-2)
 
-    x=int(input())
-    print(fib(x))
+x=int(input())
+print(fib(x))
