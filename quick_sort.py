@@ -30,3 +30,6 @@ quicksort(array, 0, 999)
 
 print(array)
 """
+#note: intead of using variable "buffor" it's possible to use:
+# (tab[l], tab[h]) = (tab[h], tab[l])
+# but i wanted to stay close to my C++ program I based this script on
