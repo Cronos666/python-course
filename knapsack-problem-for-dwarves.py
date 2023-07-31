@@ -32,23 +32,23 @@ def add_amount(i, orginal_position):
         value.append(value[orginal_position])
         weight.append(weight[orginal_position])
         i -= 1
-'''
-add_amount(10, 0) #add gold
-add_amount(10, 1) #add iron
-add_amount(10, 2) #add silver
-add_amount(10, 3) #add platinum
-add_amount(10, 4) #add bronze
-add_amount(10, 5) #add copper
-add_amount(10, 6) #add nickel
-add_amount(10, 7) #add aluminum
-'''
+
+#add_amount(10, 0) #add gold
+#add_amount(10, 1) #add iron
+#add_amount(10, 2) #add silver
+#add_amount(10, 3) #add platinum
+#add_amount(10, 4) #add bronze
+#add_amount(10, 5) #add copper
+#add_amount(10, 6) #add nickel
+#add_amount(10, 7) #add aluminum
+
 minerals = db_create(ores, value, weight)
 
 #uncomment to see dataset
-'''
-for i in range(len(minerals)):
-    print(minerals[i])
-'''
+
+#for i in range(len(minerals)):
+#    print(minerals[i])
+
 #Algorithm:
 #takes prepared set of data and maximal weight of items, creates dictionary for computed items
 def maxProfit(items, max_weight, memory={}):
